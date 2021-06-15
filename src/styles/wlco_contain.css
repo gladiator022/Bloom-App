@@ -1,0 +1,62 @@
+.wlc_contain{
+    background-color: rgb(206, 209, 199);
+    width: 80%;
+    display: inline;
+}
+#welc{
+    width: 60%;
+    height: 350px;
+    margin-top: 20px;;
+}
+.contain {
+    height: 420px;
+}
+.your_profile{
+    text-align: center;
+    padding-top: 0;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    font-weight: bold;
+}
+label{
+    margin-top: 30px;
+    font-size: 12px;
+    color: rgb(70, 70, 243);
+}
+#info_profil{
+    text-align: left;
+    overflow:hidden;
+    margin: 0 auto;
+    height: 50%;
+    width: 80%;
+}
+#info_profil input{
+    
+    width: 100%;
+    border:none;
+    border-bottom: rgb(70, 70, 243) 4px solid;
+}
+#Profil{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+}
+#change_profil{
+    margin-top: 20px;
+}
+.crtpaper,.contain{
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.crtpaper{
+    margin-top: 20px;
+}
+.btn{
+    background-color: rgb(70, 70, 243);
+    width: 250px;
+    border-radius: 20px;
+}

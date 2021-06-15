@@ -1,0 +1,69 @@
+.logo1{
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 0 ;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 ;
+    border-bottom: springgreen 2px solid;
+    height: 90px;
+    display: flex;
+    align-items: center;
+  }
+  #logo1{
+      width: 50%;
+      height: 100%;
+      margin-right: 40px;
+  }
+  .logo1 img{
+    margin-top: 5px;
+    width: 90px;
+  }
+  #arrow{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  
+ 
+  .sidebar{
+        color: white;
+        background-color: #13233d;
+        width: 20%;
+        min-height: 650px;
+  }
+  .header{
+      display: flex;
+      width: 100%;
+      height: 90px;
+  }
+ 
+  .sidemenu{
+        height: 50px;
+        text-align: center;
+        padding-top: 15px;
+        width: 100%;
+  }
+  .welcome{
+      display: flex;
+  }
+  .Username{
+    padding-top: 15px;
+    width: 30%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.your_Account{
+    font-weight: bolder;
+    font-size: 30px;
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 1%;
+    font-family:cursive
+}
+i{
+    color: rgb(70, 70, 243);
+    font-size: 12px;
+}
