@@ -38,7 +38,14 @@
       width: 100%;
       height: 90px;
   }
- 
+  .nav-item{
+      padding: 0;
+      border: springgreen 2px solid;
+      height: 50px;
+  }
+  .nav-item ::content{
+      background-color: springgreen;
+  }
   .sidemenu{
         height: 50px;
         text-align: center;
@@ -55,6 +62,10 @@
     font-weight: bold;
     text-align: center;
 }
+.fa{
+    height: 20px;
+    height: 18px;
+}
 .your_Account{
     font-weight: bolder;
     font-size: 30px;
@@ -62,8 +73,4 @@
     padding-left: 10%;
     padding-top: 1%;
     font-family:cursive
-}
-i{
-    color: rgb(70, 70, 243);
-    font-size: 12px;
 }

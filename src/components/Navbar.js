@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import logo from '../images/Bloom.png'
-
+import {Link,NavLink} from 'react-router-dom'
 export class Navbar extends Component {
     render() {
         return (
@@ -9,21 +9,12 @@ export class Navbar extends Component {
                 <img src={logo} alt="logo"/>
                 Bloom
             </div>
-            <div className="bars-to-side-menu">
-                <i id="click" className="fas fa-bars manage"></i>
-                <div className="side-links" id="side">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Library</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Login</a></li> 
-                </div>
-            </div>
             <ul className="nav-links">
-                <li>Home</li>
-                <li>Library</li>
-                <li>About</li>
-                <li>Login</li>
-            <li><button>Sign up</button></li>  
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/createpaper">Library</Link></li>
+                <li><Link to="/welcome">About</Link></li>
+                <li><Link to="/createpaper">Login</Link></li> 
+                <li><button><Link to="/profile">Sign up</Link></button></li>  
             </ul>
     </nav>
         )

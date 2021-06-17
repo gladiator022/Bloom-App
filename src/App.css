@@ -155,6 +155,7 @@ section{
 }
 
 .get-started a{
+  margin-top: 0 auto;
   color: black;
   font-weight: bold;
   font-size: 34px;

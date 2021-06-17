@@ -8,36 +8,64 @@
     height: 350px;
     margin-top: 20px;;
 }
-.contain {
+.contain,.contain_paper {
+    border: red 2px solid;
     height: 420px;
 }
-.your_profile{
+.contain_paper{
+    border: rgb(0, 255, 13) 2px solid;
+    height: 450px;
+}
+.your_profile,.div_form_paper{
     text-align: center;
     padding-top: 0;
     margin: 0 auto;
     width: 50%;
     height: 100%;
     font-weight: bold;
+    border: rgb(34, 60, 131) 2px solid;
+}
+.div_form_paper{
+    border: rgb(180, 127, 127) 2px solid;
+    height: 100%;
 }
 label{
     margin-top: 30px;
     font-size: 12px;
     color: rgb(70, 70, 243);
 }
-#info_profil{
+#info_profil,#form_paper{
     text-align: left;
     overflow:hidden;
     margin: 0 auto;
-    height: 50%;
+    height: 80%;
     width: 80%;
 }
+#form_paper label{
+    margin: 10px;
+}
+#form_paper{
+    margin: 0 auto;
+    height: 90%;
+    width: 70%;
+}
 #info_profil input{
-    
     width: 100%;
     border:none;
     border-bottom: rgb(70, 70, 243) 4px solid;
 }
-#Profil{
+#form_paper input{
+    width: 100%;
+    border:none;
+    border-bottom: rgb(70, 70, 243) 4px solid;
+}
+select{
+    width: 100%;
+    border:none;
+    border-bottom: rgb(70, 70, 243) 4px solid;
+    height: 33px;
+}
+#Profile{
     width: 140px;
     height: 140px;
     border-radius: 70px;
@@ -45,7 +73,7 @@ label{
 #change_profil{
     margin-top: 20px;
 }
-.crtpaper,.contain{
+.crtpaper,.crtpaper2,.contain{
     align-items: center;
     margin: 0 auto;
     text-align: center;
@@ -55,8 +83,11 @@ label{
 .crtpaper{
     margin-top: 20px;
 }
-.btn{
+
+
+
+.crtpaper button{
     background-color: rgb(70, 70, 243);
-    width: 250px;
-    border-radius: 20px;
+    width: 220px;
+    border-radius: 17px;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header'
-import Profil from '../images/front_img.png'
+import Profile from '../images/front_img.png'
+import {Link,NavLink} from 'react-router-dom'
  class ProfileContain extends Component {
     render() {
         return (
@@ -9,9 +10,7 @@ import Profil from '../images/front_img.png'
                 <div className='contain'>
                         <div className='your_profile'>
                             <p>Your Profile</p>
-                                <img id='Profil' src={Profil} alt=''/>
-                                <i id='change_profil' class="fa fa-phone" aria-hidden="true">change</i>
-                            <div className='container' id='info_profil'>
+                                <img id='Profile' src={Profile} alt=''/>                            <div className='container' id='info_profil'>
                                 <div className="row" >
                                     <div className="col-sm-7">
                                         <label>first</label>
@@ -34,7 +33,7 @@ import Profil from '../images/front_img.png'
                         </div>
                 </div>
                 <div className='crtpaper'>
-                    <button className="btn btn-primary">Update Profile</button>
+                    <button className="btn btn-primary"><Link to="/welcome">Update Profile</Link></button>
                 </div>
             </div>
         )
